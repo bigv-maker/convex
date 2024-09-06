@@ -1,0 +1,757 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Convex | The fullstack TypeScript development platform</title>
+    <link rel="icon" href="/favicon.ico">
+    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
+        rel="stylesheet">
+
+</head>
+
+<body>
+    <!-- HEADER: STARTS  -->
+    <header>
+        <nav>
+            <div class="logo">
+                <a class="logo-text" href="#">Convex</a>
+
+                <ul class="nav-links">
+                    <li>
+                        <a href="#">
+                            Product
+                            <span> <i class="bi bi-chevron-up"></i></span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            Developers
+                            <span> <i class="bi bi-chevron-up"></i></span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            Pricing
+                        </a>
+                    </li>
+                </ul>
+                
+            </div>
+            <div style="display: flex; gap: 10px; align-items: center;" class="cta">
+                <div><a class="git-icon cta" href="https://github.com/"><i class="bi bi-github"></i> GitHub</a></div>
+                <div><a class="cta-icon cta" href="#">Log in</a> </div>
+
+                <div class="hamburger">
+                    <input type="checkbox" id="toggle-menu">
+                    <label for="toggle-menu" class="hamburger">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+
+                    </label>
+
+                </div>
+
+            </div>
+
+        </nav>
+
+    </header>
+
+    <!-- HEADER: ENDS  -->
+
+    <section class="hero-content">
+        <div class="grid-bg">
+            <div class="box">
+                <h1>The <span style="color: red;">only</span> decision for your backend</h1>
+            </div>
+        </div>
+        <div style="display: flex; justify-content: center;">
+            <p class="first-p">Convex is the open-source backend for application builders. <br> An all-in-one platform
+                with thoughtful, product-centric APIs.</p>
+        </div>
+        <div style="display: flex; justify-content: center;">
+            <a class="hero-getstarted" href="#">Get Started</a>
+
+            <div class="hero__container">
+                <div class="hero__bgimg">
+                    <img class="hero__imagelabel" src="diagram-wide-labels.svg" alt="">
+                    <!-- <img class="diagram-narrow-labels-for-small-screen" src="diagram-narrow-labels-for-small screen.svg" alt=""> -->
+                </div>
+            </div>
+        </div>
+        <div class="side__box__container">
+            <div class="side-box yellow"></div>
+            <div class="side-box red"></div>
+            <div class="side-box purple"></div>
+
+            <div class="Learn__more">
+                <h2 style="width: 400px;">Not just a database</h2>
+                <p>Everything your product deserves to build, launch, and scale.</p>
+                <button class="btn">Learn More</button>
+            </div>
+
+        </div>
+    </section>
+    <!-- hero section: ends -->
+    <!-- second section: starts -->
+    <section>
+
+        <div class="flair-slantshape-container">
+            <div class="slant-shape">
+                <div class="flair-five">
+                    <img src="flair-five.svg" alt="">
+                </div>
+
+                <div class="flair-six">
+                    <img src="flair-six.svg" alt="">
+                </div>
+            </div>
+
+        </div>
+
+        <div class="second-section-container">
+
+            <div>
+                <h1
+                    style="color: white; text-align: center; font-weight: 700; font-size: 3rem; padding-top: 32px; padding-bottom: 10px;">
+                    A fresh take on writing your backend
+                </h1>
+
+            </div>
+
+            <div style="display: flex; justify-content: center;">
+
+                <div class="second-section-menu"><a href="#queriesSection" class="second-section-menu-btn"> Queries</a>
+                </div>
+
+                <div class="second-section-menu"> <a href="#mutationsSection" class="second-section-menu-btn">
+                        Mutations</a> </div>
+
+                <div class="second-section-menu"> <a href="#actionsSection" class="second-section-menu-btn"> Ations</a>
+                </div>
+            </div>
+
+            <div class="second-section-p">
+                <p style="color: white; text-align: center !important;">
+                    Fetch data and perform business logic with <br> strong consistency by writing pure TypeScript.
+                </p>
+            </div>
+
+            <div>
+                <div id="queriesSection" class="second-section-content-section">
+                    <div class="second-section-content">
+                        <div class="gradient-bg"> <img src="queries-wide-content.webp" alt="your image"> </div>
+                    </div>
+
+                </div>
+
+            </div>
+            <div class="second-section-container-gridimage"> <img src="gridimage.svg" alt=""> </div>
+
+        </div>
+    </section>
+
+    <!-- second section: Ends -->
+
+    <!-- 3rd section: Starts -->
+    <section>
+        <div class="rd-section-container">
+            <div>
+                <h1 class="rd-section-container-h1">
+                    Customers
+                </h1>
+                <p
+                    style="font-size: 20px; font-weight: 500; max-width: 320px; width: 320px; line-height: 25px; display: block; text-size-adjust: 100%; margin-bottom: 20px; color: rgb(41, 41, 41);">
+                    What people building their business on Convex are saying
+                </p>
+
+            </div>
+
+            <div class="client-review-container">
+                <div class="client-profile-box">
+                    <p>
+                        Convex allowed us to iterate very quickly on the models and schema by letting us <b>see our
+                            changes deploy in real time.</b> Convex allowed us to not think about the persistence layer,
+                        deduping of calls, loading states, pagination, or any part of the backend that you're
+                        usually rolling yourself. The team was highly responsive and unblocked us when we needed it.
+
+                    </p>
+                    <div class="client-profile">
+                        <div style="display: flex; gap: 0.9rem; align-items: center;">
+                            <img src="allen-image.webp" alt="">
+                            <div style="width: max-content;">
+                                <span style="color: rgb(79 79 82); font-weight: 600; font-size: .875rem;"> Allen
+                                    Hartwig</span><br>
+                                <span style="color: rgb(109 109 112); font-weight: 500; font-size: .875rem;"> CEO </span>
+                                <br>
+                                <a href="">TNut Tree</a>
+                            </div>
+
+                        </div>
+                        <a href="#"> <button class="client-profile-btn"> Read case study</button> </a>
+                    </div>
+
+
+                </div>
+
+                <div class="client-profile-box">
+                    <p>
+                        Convex has simplified our backend operations, allowing our team to focus on delivering value
+                        to our customers. Its reliable transactions help us develop complex features quickly and
+                        reliably, tightening our feedback loop. Convex really helps us put functionality and user
+                        experience first.
+
+                    </p>
+
+                    <div style="margin-top: 75px; " class="client-profile">
+                        <div style="display: flex; gap: 0.9rem; align-items: center;">
+                            <img src="punn-image.webp" alt="">
+                            <div style="width: max-content;">
+                                <span style="color: rgb(79 79 82); font-weight: 600; font-size: .875rem;"> Punn Kam
+                                </span><br>
+                                <span style="color: rgb(109 109 112); font-weight: 500; font-size: .875rem;"> Co-Founder
+                                </span> <br>
+                                <a href="">HostAIe</a>
+                            </div>
+
+                        </div>
+                        <a href="#"> <button class="client-profile-btn"> Read case study</button> </a>
+                    </div>
+
+                </div>
+
+                <div class="client-profile-box">
+                    <p>
+                        Convex taught us how to do databases properly. The biggest benefit was that I was finally
+                        able to spend most of my <b>time on the actual product</b> instead of on database-specific
+                        tooling,
+                        like having to create a custom ORM or worry about migrations. Switching to Convex helped
+                        initiate a huge mindset shift for me in general as a founder.
+                    </p>
+
+                    <div class="client-profile">
+                        <div style="display: flex; gap: 0.9rem; align-items: center; width: max-content;">
+                            <img src="leon-image.webp" alt="">
+                            <div style="width: max-content;">
+                                <span style="color: rgb(79 79 82); font-weight: 600; font-size: .875rem;"> Leon
+                                    Si</span><br>
+                                <span style="color: rgb(109 109 112); font-weight: 500; font-size: .875rem;">
+                                    Co-founder
+                                </span> <br>
+                                <a href="">Tunnel</a>
+                            </div>
+
+                        </div>
+                        <a href="#"> <button class="client-profile-btn"> Read case study</button></a>
+                    </div>
+
+                </div>
+
+
+            </div>
+
+
+            <div class="client-review-slide-btn">
+                <button class="btn"> <i class="bi bi-chevron-left bi-chevron-right-1"></i> 
+                    <i class="bi bi-chevron-right bi-chevron-right-2"></i> 
+                </button>
+
+            </div>
+
+            <div class="love-for-convax-container">
+
+                <h1 style="color: white; text-align: center; font-weight: 700; font-size: 3rem; margin-bottom: 20px;">
+                    Love for Convex
+                </h1>
+                <div class="love-for-convax-profile-container">
+
+                    <div class="love-for-convax-profile-box">
+                        <div class="love-for-convax-client-profile">
+                            <div style="display: flex; align-items: center; gap: 1rem;">
+                                <img src="mikeysee-love-for-convex.webp" alt="">
+                                <div>
+                                    <h4 style="color: white;">
+                                        Michael Cann
+                                    </h4>
+                                    <h5>
+                                        @mikeysee
+                                    </h5>
+                                </div>
+                            </div>
+
+                            <a href="https://x.com/convex_dev?mx=2"> <i class="bi bi-twitter"></i></a>
+                        </div>
+
+                        <p class="love-for-convax-client-profile-p">
+                            Holy crap <a href="https://x.com/convex_dev?mx=2" target="_blank">@convex_dev</a> is
+                            absolutely mind blowing stuff. I just wrote a real-time
+                            multiplayer todo app in 15mins!
+                            <br>
+                            <br>
+                            Seriously stop messing around with Firebase, Supabase, Postgres, Vercel Storage or
+                            any of those and give Convex a try.. thank me later :)
+                        </p>
+
+                    </div>
+
+                    <div class="love-for-convax-profile-box">
+                        <div class="love-for-convax-client-profile">
+                            <div style="display: flex; align-items: center; gap: 1rem;">
+                                <img src="tweetsbycolin-love-for-convex.webp" alt="">
+                                <div>
+                                    <h4 style="color: white;">
+                                        Colin | Clerk.com
+                                    </h4>
+                                    <h5>
+                                        @tweetsbycolin
+                                    </h5>
+                                </div>
+                            </div>
+
+                            <a href="https://x.com/convex_dev?mx=2"> <i class="bi bi-twitter"></i></a>
+                        </div>
+
+                        <p class="love-for-convax-client-profile-p">
+                            Happy to see more first-class clerk x convex integration
+                            <br>
+                            <br>
+                            There's such a major architecture shift around Serverless + Edge + React + Typescript that
+                            (imo) it's unlikely sql is still the right abstraction
+                            <br>
+                            <br>
+                            Very compelling that convex is approaching this from first principles
+                        </p>
+
+                    </div>
+
+                    <div class="love-for-convax-profile-box">
+                        <div class="love-for-convax-client-profile">
+                            <div style="display: flex; align-items: center; gap: 1rem;">
+                                <img src="rauchg-love-for-convex.webp" alt="">
+                                <div>
+                                    <h4 style="color: white;">
+                                        Colin | Clerk.com
+                                    </h4>
+                                    <h5>
+                                        @tweetsbycolin
+                                    </h5>
+                                </div>
+                            </div>
+
+                            <a href="https://x.com/convex_dev?mx=2"> <i class="bi bi-twitter"></i></a>
+                        </div>
+
+                        <p class="love-for-convax-client-profile-p">
+                            😱 <a href="https://x.com/convex_dev?mx=2" target="_blank">@convex_dev</a> is the gift that
+                            keeps on giving
+                            <br>
+                            <br>
+                            Check it out in combination with @nextjs docs.convex.dev
+                        </p>
+
+                    </div>
+
+                    <div class="love-for-convax-profile-box">
+                        <div class="love-for-convax-client-profile">
+                            <div style="display: flex; align-items: center; gap: 1rem;">
+                                <img src="tim_stepro-love-for-convex.webp" alt="">
+                                <div>
+                                    <h4 style="color: white;">
+                                        Timothy Stepro
+                                    </h4>
+                                    <h5>
+                                        @tim_stepro
+                                    </h5>
+                                </div>
+                            </div>
+
+                            <a href="https://x.com/convex_dev?mx=2"> <i class="bi bi-twitter"></i></a>
+                        </div>
+
+                        <p class="love-for-convax-client-profile-p">
+                            <a href="https://x.com/convex_dev?mx=2" target="_blank">@convex_dev</a> is everything I
+                            wanted Firebase to be. Such a great tool. Feels illegal to know about this before others.
+                        </p>
+                    </div>
+
+                    <div class="love-for-convax-profile-box">
+                        <div class="love-for-convax-client-profile">
+                            <div style="display: flex; align-items: center; gap: 1rem;">
+                                <img src="urubatan-love-for-convex.webp" alt="">
+                                <div>
+                                    <h4 style="color: white;">
+                                        urubatan
+                                    </h4>
+                                    <h5>
+                                        @urubatan
+                                    </h5>
+                                </div>
+                            </div>
+
+                            <a href="https://x.com/convex_dev?mx=2"> <i class="bi bi-twitter"></i></a>
+                        </div>
+
+                        <p class="love-for-convax-client-profile-p">
+                            #dailytip if you are a #react developer and want an alternative to Firebase, you might want
+                            to give  <a href="https://x.com/convex_dev?mx=2" target="_blank">@convex_dev</a>  a try. It has amazing ReactHooks with samples in #Javascript and
+                            #typescript and the price isn't bad. I'm not a Firebase expert but it looks like all
+                            features are there
+                        </p>
+
+                    </div>
+
+                </div>
+
+                <div class="love-for-convax-client-review-slide-btn">
+                    <button class="btn-love-for-convax"> <i style="color: white;" class="bi bi-chevron-left bi-chevron-right-1"></i> <i
+                            style="color: white;" class="bi bi-chevron-right bi-chevron-right-2 "></i> </button>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+    <!-- 3rd section: Ends -->
+    <!-- 4th sectiom: Starts -->
+    <section>
+        <div class="fourth-section-container">
+            <div class="features-circles-container">
+                <div class="features-circles-image-container">
+                    <h1>
+                        Everything else you need
+                        to build your app
+                    </h1>
+
+
+                </div>
+
+                <div class="features-circles-flexbox">
+                    <div class="features-circles-floxbox-content">
+                        <div>
+                            <div style="display: flex; align-items: center; gap: 0.9rem;">
+                                <i class="bi bi-file-image-fill features-circles-icon"></i>
+
+                                <div style="color: rgba(255, 255, 255, 0.834);">
+                                    <h3 style="line-height: 40px; font-size: 24px; padding-top: 24px;">File storage
+                                    </h3>
+                                    <span>Upload and serve file</span>
+                                </div>
+
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="features-circles-floxbox-content">
+                        <div>
+                            <div style="display: flex; align-items: center; gap: 0.9rem;">
+                                <i class="bi bi-search features-circles-icon"></i>
+
+                                <div style="color: rgba(255, 255, 255, 0.834);">
+                                    <h3 style="line-height: 40px; font-size: 24px; padding-top: 24px;">Search</h3>
+                                    <span>Search text in any document</span>
+                                </div>
+
+                            </div>
+
+                        </div>
+                    </div>
+
+                    <div class="features-circles-floxbox-content">
+                        <div>
+                            <div style="display: flex; align-items: center; gap: 0.9rem;">
+                                <i class="bi bi-person features-circles-icon"></i>
+                                <div style="color: rgba(255, 255, 255, 0.834);">
+                                    <h3 style="line-height: 40px; font-size: 24px; padding-top: 24px;">Auth </h3>
+                                    <span>Implement login and manage users </span>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="features-circles-floxbox-content">
+                        <div>
+                            <div style="display: flex; align-items: center; gap: 0.9rem;">
+                                <i class="bi bi-clock features-circles-icon"></i>
+
+                                <div style="color: rgba(255, 255, 255, 0.834);">
+                                    <h3 style="font-size: 20px; padding-top: 24px;">Scheduling & crons</h3>
+                                    <span>Build workflows and run background jobs </span>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+             <div style="text-align: center; ">
+
+                <h2 style="color: white; font-size: 24px; font-weight: 900; margin-bottom: 16px;">
+                    And so much more…
+                </h2>
+                <button style="background-color: orange; padding: 10px 20px; font-size: large; font-weight: 500; border: none; border-radius: 30px;">
+                    Learn More
+                 </button>  
+             </div>
+
+            </div>
+
+        </div>
+    </section>
+    <!-- 4th section: Ends -->
+     
+    <!-- 5th section: Starts -->
+    <section>
+        <div class="fifth-section-container">
+
+            <div class="first-content-container">
+
+                <div class="first-content-container-one">
+                    <div class="first-content-one">
+                        <h1 class="first-content-one-h1"> 
+                            Convex <i class="bi bi-heart-fill"></i>
+                            your favorite frameworks
+    
+                        </h1>
+                        <p class="first-content-one-p" style="font-size: 1.5rem; font-weight: 500; margin-bottom: 1.5rem;">
+                            Connect your backend to your client libraries and frameworks
+                        </p>
+    
+                        <button class="first-content-one-btn">
+                            Learn more
+                        </button>
+                    </div>
+    
+                    <div class="frameworks-styling">
+                        <div>
+
+                            <div class="frameworks-icons-text" >
+                                <img src="frameworks-react.svg" alt="">
+                                <span class="frameworks-span">React</span>
+                            </div>
+
+                            <div class="frameworks-icons-text">
+                                <img src="frameworks-next.svg" alt="">
+                                <span class="frameworks-span">Next.js</span>
+                            </div>
+
+                            <div class="frameworks-icons-text">
+                                <img src="frameworks-remix.svg" alt="">
+                                <span class="frameworks-span">Remix</span>
+                            </div>
+                        </div>
+    
+                        <div>
+                            
+                            <div class="frameworks-icons-text">
+                                <img src="frameworks-react-native.svg" alt="">
+                                <span class="frameworks-span">React Native</span>
+                            </div>
+
+                            <div class="frameworks-icons-text">
+                                <img src="frameworks-node.svg" alt="">
+                                <span class="frameworks-span">Node.js</span>
+                            </div>
+
+                            <div class="frameworks-icons-text">
+                                <img src="frameworks-vue.svg" alt="">
+                                <span class="frameworks-span">Vue</span>
+                            </div>
+                        </div>
+    
+                        <div>
+
+                            <div class="frameworks-icons-text">
+                                <img src="frameworks-python.svg" alt="">
+                                <span class="frameworks-span">Python</span>
+                            </div>
+
+                            <div class="frameworks-icons-text"> 
+                                <img src="frameworks-rust.svg" alt="">
+                                <span class="frameworks-span">Rust</span>
+                            </div>
+
+                            <div class="frameworks-icons-text">
+                                <img src="frameworks-svelte.svg" alt="">
+                                <span class="frameworks-span">Svelte</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+            </div>
+
+
+
+            <div class="second-content-container">
+                <h1 class="second-content-h1">
+                    Common questions <br> for the curious
+                </h1>
+                <div class="second-content">
+
+                    <div class="second-content-flebox">
+                        <div>
+                            <div class="second-content-flebox-content"> 
+                                <div>Is Convex a database? </i></div>
+                            </div>
+    
+                            <div class="second-content-flebox-content"> 
+                                <div>What makes Convex realtime? </div>
+                            </div>
+    
+                            <div class="second-content-flebox-content"> 
+                                <div>Where do Convex functions run?</div>
+                            </div>
+    
+                            <div class="second-content-flebox-content"> 
+                                <div>Can I try Convex for free?</div>
+                            </div>
+
+                            <button class="second-content-btn">
+                                Learn more
+    
+                            </button>
+                        </div>
+
+
+                        <div> 
+                           <div class="second-content-chevron-right"><i class="bi bi-chevron-right"></i></div>
+                           <div class="second-content-chevron-right"><i class="bi bi-chevron-right "></i></div>
+                           <div class="second-content-chevron-right"><i class="bi bi-chevron-right"></i></div>
+                           <div class="second-content-chevron-right"><i class="bi bi-chevron-right"></i> </div>   
+                        </div>
+                    </div>
+                    
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+    <!-- 5th section: Ends -->
+    <!-- Footer section: Starts -->
+     <footer>
+        <div class="footer-container">
+            <div class="start-now-container">
+
+                <div class="start-now-image-container">
+                    <div class="start-now-left">
+
+                        <img src="start-now-left.svg" alt="">
+    
+                    </div>
+    
+                    <div class="start-now-bottom">
+    
+                        <img src="start-now-bottom.svg" alt="">
+    
+                    </div>
+    
+                    <div class="start-now-top-footer">
+                       <img class="start-now-top-footer" src="start-now-top-footer.svg" alt="">
+    
+                    </div>
+                </div>
+
+                
+
+                <div class="start-now-text-container">
+                    <h1 class="start-now-h1">
+                        Start now
+                    </h1>
+                    <p class="start-now-p">
+                        Get your project up and running <br> in minutes
+                    </p>
+                    <button class="start-now-btn">
+                        Get started
+                    </button>
+            
+                </div>
+
+            </div>
+
+
+            <div class="footer-footer">
+
+                <div class="footer-footer-flexbox">
+                    <div style="display: flex; gap: 4rem;" >
+                        <div>
+                            <h2>Resources</h2>
+
+                            <div>
+                                <div class="footer-effects">Developer portal</div>
+                                <div class="footer-effects">Docs</div>
+                                <div class="footer-effects">Pricing</div>
+                                <div class="footer-effects">Podcast</div>
+                                <div class="footer-effects">Templates</div>
+                                <div class="footer-effects">Changelog</div>
+                            </div>
+
+
+                        </div>
+                        <div>
+                            <h2>Company</h2>
+                            <div>
+                                <div class="footer-effects">About us</div>
+                                <div class="footer-effects">Brand</div>
+                                <div class="footer-effects">Investors</div>
+                                <div class="footer-effects">Jobs</div>
+                                <div class="footer-effects">News</div>
+                                <div class="footer-effects">Legal</div>
+                                <div class="footer-effects">Security</div>
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                    <div>
+                        <div>
+                            <h2>Social</h2>
+
+                            <div>
+                                <div class="footer-effects">Twitter</div>
+                                <div class="footer-effects">Discord</div>
+                            </div>
+
+                            
+                        </div>
+
+                    </div>
+                    
+                </div>
+
+               <div class="footer-copyrite">©2024 Convex, Inc</div>
+            </div>
+
+            
+
+        </div>
+    
+        
+
+
+
+
+
+
+
+
+     </footer>
+     <!-- Footer section: Ends -->
+
+
+</body>
+
+</html>
